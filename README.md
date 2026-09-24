@@ -143,12 +143,6 @@ flutter run
 ```
 AR works only on a physical ARCore-capable device, not on an emulator.
 
-## Known limitations
-- **The Gemini API key is compiled into the client.** The SRS (NFR-SEC-3) requires keys not to be exposed client-side. A production build should route Gemini calls through a backend such as Firebase Cloud Functions.
-- Lesson content and quiz questions live in Firestore and are not included in this repository.
-- Only the exported Unity build (`unityLibrary`) is included, not the Unity editor project.
-- Android only. The iOS/web/desktop folders are default Flutter scaffolding and have not been set up.
-
 ---
 
 This repository is maintained by **Mahnoor Awan** ([@maan203](https://github.com/maan203)).
