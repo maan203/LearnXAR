@@ -1,0 +1,65 @@
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+local.properties
+android/local.properties
+.cxx/
+.externalNativeBuild/
+
+# Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Flutter generated
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+**/Flutter/ephemeral/
+ios/Pods/
+macos/Pods/
+
+# Unity
+unityLibrary/build/
+unityLibrary/Library/
+unityLibrary/Temp/
+unityLibrary/Logs/
+unityLibrary/Obj/
+unityLibrary/UserSettings/
+unityLibrary/symbols/
+
+# Logs / crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Secrets
+lib/config/secrets.dart
+.env
+.env.*
+
+# Firebase config (add your own locally, see README)
+google-services.json
+GoogleService-Info.plist
+lib/firebase_options.dart
+firebase.json
+.firebaserc
+
+# Signing keys
+key.properties
+*.jks
+*.keystore
