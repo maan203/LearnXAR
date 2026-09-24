@@ -149,13 +149,6 @@ AR works only on a physical ARCore-capable device, not on an emulator.
 - Only the exported Unity build (`unityLibrary`) is included, not the Unity editor project.
 - Android only. The iOS/web/desktop folders are default Flutter scaffolding and have not been set up.
 
-## Team
-| Name | Reg. # |
-|------|--------|
-| Farah Arif (Group Leader) | 225156 |
-| Mahnoor Awan | 221858 |
-| Zainab Akbar | 225148 |
-
-Supervised by **Dr. Tufail Muhammad**.
+---
 
 This repository is maintained by **Mahnoor Awan** ([@maan203](https://github.com/maan203)).
